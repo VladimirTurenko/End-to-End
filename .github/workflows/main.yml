@@ -24,8 +24,8 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v1
-      - name: Run Set up Python 3.7
-        run: sudo apt install python3.7
+      - name: Run Set up Python 
+        run: sudo apt install python3
       - name: Install dependdencies
         run: |
           sudo apt-get update -y

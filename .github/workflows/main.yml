@@ -32,8 +32,8 @@ jobs:
           sudo pip install selenium
           pytest --version
           sudo apt install chromium-browser
-          pip install pytest
-          python tests.py
+          sudo pip install pytest
+          sudo python tests.py
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script

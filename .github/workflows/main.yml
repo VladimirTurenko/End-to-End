@@ -27,8 +27,9 @@ jobs:
      
       - name: Run cd backend
         run: |
-          pip install -U pytest
-          pip install selenium
+          sudo apt-get update -y
+          sudo apt-get install -y python-pytest
+          sudo pip install selenium
           pytest --version
           sudo apt install chromium-browser
           ls -la

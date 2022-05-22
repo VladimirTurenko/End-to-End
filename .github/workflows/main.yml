@@ -28,6 +28,7 @@ jobs:
       - name: Run cd backend
         run: |
           pip install -U pytest
+          pip install selenium
           pytest --version
           tests.py
 

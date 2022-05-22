@@ -28,7 +28,7 @@ jobs:
       - name: Run cd backend
         run: cd backend
       - name: Run mvn version
-        run: mvn -version
+        run: pwd
       - name: Run mvn package
         run: mvn package
 

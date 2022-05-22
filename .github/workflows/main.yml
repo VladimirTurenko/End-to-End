@@ -33,7 +33,7 @@ jobs:
           pytest --version
           sudo apt install chromium-browser
           pip install pytest
-          sudo python tests.py
+          python tests.py
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script

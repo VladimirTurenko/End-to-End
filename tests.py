@@ -333,7 +333,7 @@ def test_13(driver):
 
 
 def test_14(driver):
-    books = driver.find_element(By.XPATH, "//a[contains(text(), 'Books')]")
+   books = driver.find_element_by_xpath("//a[contains(text(), 'Books')]")
     books.click()
 
     driver.implicitly_wait(10)

@@ -33,6 +33,8 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run cd frontend
         run: cd frontend
+      - name: Run mvn version
+        run: mvn -version
       - name: Run npm install
         run: npm install
       - name: Run npm install

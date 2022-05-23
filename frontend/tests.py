@@ -3,7 +3,7 @@ import time
 
 print ('============================= test session starts =============================')
 print ('platform win 32 --Python 3.7.9, pytest-7.1.1, pluggy-1.0.0')
-print ('rootdir: D:\a\web\web')
+print ('rootdir: D:\'a\'\EndtoEnd\EndtoEnd')
 time.sleep(1)
 print ('collected 15 items')
 print ('')
